@@ -13,7 +13,7 @@ gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=finished.pdf *.pdf
 Also available on bitbucket
 
 PDF splitter
-
+```python
 #!/bin/sh
 #
 # https://stackoverflow.com/questions/10228592/splitting-a-pdf-with-ghostscript
@@ -33,6 +33,7 @@ then
         exit 1
 fi
 gs -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$4" -dFirstPage=$2 -dLastPage=$3 -sDEVICE=pdfwrite "$1"
+```
 
 2) Editors for code (vi and Sublime Text)
 
