@@ -1,6 +1,5 @@
 # Converting Latex to Word
 
-https://chatgpt.com/share/683b7236-980c-8004-bb18-377f24794396
 
 Converting a LaTeX manuscript with **custom equations and plots** to Microsoft Word can be tricky, especially if you want to preserve formatting, math, and figures. Here’s a step-by-step guide depending on how complex your LaTeX document is:
 
